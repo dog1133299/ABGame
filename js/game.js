@@ -106,5 +106,5 @@ function reset(){
 	s('#number4').value=null;
 	s('.ABList').innerHTML="";
 	s('.bigAB').innerHTML='0000 0A0B';
-	 
+	 s('.guess button').removeEventListener("click",gameing);
 }
