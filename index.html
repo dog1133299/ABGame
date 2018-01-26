@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+</head>
+<body>
+	 <div class="container">
+	 	<h1 class="title">The A&B Game</h1>
+	 	<div class="guess">
+	 		<h2>Enter Four Different Numbers</h2>
+	 		<h3>Between 1 and 9</h3>
+			<input type="number" name="number" max="9" min="1" id="number1">
+			<input type="number" name="number" max="9" min="1" id="number2">
+			<input type="number" name="number" max="9" min="1" id="number3">
+			<input type="number" name="number" max="9" min="1" id="number4">
+			<button>Guess</button>
+			<div class="bigAB">0000 0A0B</div>
+		</div>
+		<div class="list">
+			<div class="time">Times: <span>0</span></div>
+			<div class="ABList"></div>
+		</div>
+	 </div>
+	 <div class="overlay">
+	 	<div class="msgBox">
+	 		<div class="msg msg-a">Start!</div>
+	 		<div class="msg msg-b"></div>
+	 		<div class="msg msg-c">How to play?</div><br>
+	 		<div class="msg msg-d">A: exist & at the right position.
+	 		<br>B: exist & at the wrong position.
+	 			<br><b>Ex: 1234</b>
+	 			<br><ins>12</ins>56 <ins>2A </ins>0B
+	 			<br><ins>1234</ins> <ins>4A </ins>0B
+	 			<br>56<ins>12</ins> 0A <ins>2B</ins>
+	 			<br><ins>4321</ins> 0A <ins>4B</ins>
+	 			
+	 			
+	 			 </div> </div>
+	 	</div>
+	 </div>
+
+
+	<script type="text/javascript" src="js/game.js"></script>
+</body>
+</html>
