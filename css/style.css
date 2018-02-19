@@ -4,7 +4,7 @@
  	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	background:rgb(250,250,150);
-
+	text-align: center;
  }
  input{
  	width: 50px;
@@ -12,9 +12,7 @@
  	font-size: 30px;
  	outline: none;
  	border: 2px solid lightblue;
- 	margin:0px 15px 15px 15px ;
-
- 	text-align: center;
+ 	margin:0px 15px 15px 15px;
  }
 button{
 	display: block;
@@ -48,20 +46,15 @@ button:hover {
  	top:10%;
  	left: 50%;
  	margin:0px 0px 0px -300px ; 
-	
- 	text-align: center;
- 	
  }
  .title{
  	color:  darkred;
  	font-size: 40px;
-
  }
  .guess{
  	max-width: 400px;
  	float: left;
- 	color: rgb(80,80,80);
- 	text-align: center;
+ 	color: rgb(80,80,80); 
  }
  .bigAB{
 	margin-top: 50px;
@@ -83,12 +76,9 @@ button:hover {
  .list{
  	max-width: 200px;
  	font-size:25px; 
- 	float: right;
- 	
- 	text-align: center;
+ 	float: right; 
  }
 .time{
-
  	font-weight: 600;
  	color:rgb(130,100,100);
 }
@@ -106,7 +96,6 @@ button:hover {
 	background-color: darkred;
 	color: white;
 	border-radius: 5px;
-
  }
  .overlay{
 	position: absolute;
@@ -116,7 +105,6 @@ button:hover {
 	height: 100%;
 	background-color: rgba(0,0,0,0.7);
 
-
  }
  .msgBox{
  	 width: 600px;
@@ -124,28 +112,14 @@ button:hover {
  	position: absolute;
  	top:10%;
  	left: 50%;
- 	margin:0px 0px 0px -300px ; 
-	
- 	text-align: center;
-
+ 	margin:0px 0px 0px -300px ;  
  }
  .msg{
  	color: white;
 	font-weight: 600;
 	margin: 20px;
  }
- .msg-a{
- 	font-size: 120px;
- }
- .msg-b{
- 	font-size: 60px;
-
- }
- .msg-c{
- 	font-size: 60px;
- }
- .msg-d{
-
- 	font-weight: 400;
- 	font-size: 25px;
- }
+ .msg-a{font-size: 120px;}
+ .msg-b{font-size: 60px;}
+ .msg-c{font-size: 60px;}
+ .msg-d{font-size: 25px;font-weight: 400;}

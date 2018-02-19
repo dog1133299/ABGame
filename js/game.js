@@ -3,9 +3,7 @@
  }
 
  document.addEventListener("DOMContentLoaded",function(){
-
  	s(".overlay").addEventListener("click",loadGame);
-
  });
 
 var AB=[];
@@ -35,18 +33,11 @@ var count=0;
 
 
  };
-
  function gameing(){
-
- 	
-	 
 	 GuessNumber[0]=parseInt(s('#number1').value);
 	 GuessNumber[1]=parseInt(s('#number2').value);
 	 GuessNumber[2]=parseInt(s('#number3').value);
 	 GuessNumber[3]=parseInt(s('#number4').value);
-
-	 
-
 
 	if (GuessNumber[0]&&GuessNumber[1]&&GuessNumber[2]&&GuessNumber[3]) {
 		if (isDifferent(GuessNumber)) {
@@ -83,10 +74,8 @@ function isDifferent(n){
 				return false;
 			}
 		}
-		
 	}
 	return true;
-
 }
 function win(){
 	s('.overlay').style.display="block";
