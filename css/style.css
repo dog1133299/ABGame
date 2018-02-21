@@ -123,3 +123,15 @@ button:hover {
  .msg-b{font-size: 60px;}
  .msg-c{font-size: 60px;}
  .msg-d{font-size: 25px;font-weight: 400;}
+
+
+.bottommsg{
+ 	width: 100%;
+ 	position: absolute;
+ 	bottom: 0;
+ 	color: black;
+ 	text-align: center;
+ 	font-family: 'Square721 BT','Montserrat', sans-serif;
+ 	font-size: 20px;
+ }
+ .bottommsg>a{text-decoration: none; }
